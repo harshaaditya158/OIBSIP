@@ -1,0 +1,128 @@
+.name{
+    
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 195, 241);
+    padding: 20px;
+    font-size: 30px;
+}
+.img1 img{
+    width: 1450px;
+    height: 600px;
+    border-radius: 10px;
+}
+.personal_life{
+    background-color: rgb(241, 195, 241);
+    color: black;
+    padding: 25px;
+    font-family: cursive;
+}
+.personal_life b{
+    font-size: 25px;
+    color: black;
+}
+.quote1{
+    background-color: rgb(112, 13, 94);
+    margin: 10px 40px 40px 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 40px;
+    color: white;
+
+}
+.edu{
+    background-color: rgb(241, 195, 241);
+    color: black;
+    padding: 25px;
+    font-family: cursive;
+}
+.edu b{
+    font-size: 25px;
+    color:black;
+}
+.quote2{
+    background-color: rgb(112, 13, 94);
+    margin: 10px 40px 40px 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 40px;
+    color: white;
+
+}
+.career{
+    grid-area: career;
+}
+.img5{
+    grid-area: img5;
+    border-radius: 30px;
+}
+.container1{
+    display: grid;
+    grid-template-areas: 
+    'career img5';
+    background-color: rgb(241, 195, 241);
+    color: black;
+    padding: 20px;
+    font-family: cursive;
+}
+.img5 img{
+    height: 300px;
+}
+.career b{
+    font-size: 25px;
+    color: black;
+}
+.img6{
+    grid-area: img6;
+    border-radius: 30px;
+}
+.achievements{
+    grid-area: achievements;
+    margin-left: 10px;
+}
+.container2{
+    display: grid;
+    grid-template-areas: 
+    'img6 achievements';
+    background-color:rgb(241, 195, 241);
+    color: black;
+    padding: 20px;
+    font-family: cursive;
+    
+}
+.img6 img{
+    height: 350px;
+}
+.achievements b{
+    font-size: 25px;
+    color: black;
+}
+.awards{
+    background-color:rgb(241, 195, 241);
+    color: black;
+    padding: 20px;
+    font-family: cursive;
+    
+    
+}
+.awards b{
+    font-size: 25px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.quote3{
+    background-color:rgb(112, 13, 94);
+    margin: 10px 40px 40px 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 40px;
+    color: white;
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="Rough3b.css">
+</head>
+<body align="center">
+
+    <h1  style="color: black;">TODO LIST</h1>
+    <form name="myForm" >
+<b style="color: black;font-size: 15px;">Enter title of the task :</b> <input type="text" placeholder="Title..." id="title" required/>  
+        <br><br><br><br>
+        <b style="color: black;font-size: 15px;">Enter description of the task :</b><textarea rows = "5" cols = "60" id="description" placeholder="Description..."></textarea> 
+       
+        <div id="blank"></div>
+        <br>
+        <button type="button" id="btn" onclick="addd()" ><b>add task</b></button><br><br><br>
+    </form>
+        <div id="addedtasks">
+            <div id="${c}" class="tasks" >
+                <div id="tit" ><b>Title</b></div>
+                <div id="des" ><b>Description</b></div>
+                <div><b>Status</b></div>
+                <b>Delete</b>
+            </div>
+        </div>
+</body>
+<script src="Rough3c.js"></script>
+</html>

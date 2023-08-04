@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#addedtasks{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* width:90%; */
+    background-color: rgb(51, 48, 48);
+    border-radius: 30px;
+    color: white;
+    margin-left: 200px;
+    
+}
+.tasks{
+    /* width:100%; */
+    display: grid;
+    word-break: keep-all;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    /* padding-left: 20px;*/
+    padding-right: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+#btn{
+    color: white;
+    background-color: brown;
+    margin-left: 200px;
+    
+}
+button{
+    
+    border-radius: 25px;
+    width:130px; 
+    height:40px;
+}
+form{
+    font-family: monospace;
+   
+
+}
+input{
+    height: 25px;
+}
+#blank{
+     color: white;
+}
